@@ -3,6 +3,7 @@ LAB 1.1 - Instalação e Configuração do Docker/SWAP
 ######## EXECUTAR TODOS OS COMANDOS NAS VMS KUBE MASTER, KUBE NODE 01 e KUBE NODE 02 ########
 
 Atualize a lista de pacotes e instale os pacotes para ativar o suporte a repositórios https:
+ #### sudo rm /etc/apt/sources.list.d/jenkins.list (caso de falha)
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 
